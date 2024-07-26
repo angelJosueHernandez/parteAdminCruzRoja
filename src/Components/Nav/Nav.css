@@ -1,0 +1,104 @@
+
+.container{
+    width: 1166px;
+    height: 50px;
+    color: #fff;
+    background: rgb(0, 7, 61);
+    /*background: #6e6e6e;*/
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 8px 2%;
+    position: relative;
+}
+.notifi{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.chat{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.perfil{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+.submenu-wrap{
+    z-index: 9999 !important;
+    position: absolute;
+    top: 80%;
+    right: 2%;
+    width: 250px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.submenu-wrap.open-menu{
+    max-height: 400px;
+}
+.submenu{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    padding: 20px;
+  
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Agrega un borde delgado */
+    border-radius: 8px; /* Agrega bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-info h2{
+    font-weight: 500;
+    color: black;
+}
+.user-info .perfil2{
+    width: 50px;
+    height: 50px;
+    color: black;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 8px 0 10px;
+}
+.submenu-link{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+    text-decoration: none;
+}
+.submenu-link p{
+    width: 100%;
+    color: black;
+}
+.submenu-link .image{
+    width: 50px;
+    height: 50px;
+    color: black;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 15px;
+}
+.submenu-link:hover p{
+    font-weight: 600;
+} 

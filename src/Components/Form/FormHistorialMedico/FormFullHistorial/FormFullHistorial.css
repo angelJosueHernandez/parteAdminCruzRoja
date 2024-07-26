@@ -1,0 +1,158 @@
+.contendor_historial_completo{
+    width: 1166px;
+    height: 591px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.datos_personales{
+    width: 250px;
+    height: 450px;
+
+}
+.datos_perfil{
+    width: 100%;
+    height: 100px;
+    border: solid 1px #d3d3d3;
+    display: flex;
+    
+}
+.contenedor_icono{
+    width: 100px;
+    height: 100%;
+}
+.icono_perfil{
+    width: 80%;
+    height: 80%;
+}
+.domicilio{
+    width: 100%;
+    height: 120px;
+    border: solid 1px #d3d3d3;
+    margin-top: 10px;
+}
+.contacto{
+    width: 100%;
+    height: 200px;
+    border: solid 1px #d3d3d3;
+    margin-top: 10px;
+}
+.grupo_datos{
+    display: flex;
+    justify-content: center;
+    
+}
+.grupo_datos p{
+    margin-left: 10px;
+}
+.contenedor_antecedentes{
+    width: 610px;
+    height: 330px;
+    border: solid 1px #c5c1c1;
+
+}
+.tituloA{
+    width: 100%;
+    height: 40px;
+    background: #DF013A;
+    text-align: center;
+    color: #fff;
+}
+.grupo_antecedente{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+.datos_antecedentes{
+    margin-left: 5px;
+}
+.datos_antecedentes .fecha{
+    margin-left: 15px;
+}
+.datos_antecedentes .tratamiento{
+    margin-left: 15px;
+}
+.nuevo_antecedente{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.btn_antecedente{
+    width: 40px;
+    height: 40px;
+    background: #DF013A;
+    border-radius: 5px;
+    margin-top: 5px;
+    
+}
+.nuevo_antecedente p{
+    margin-left: 8px;
+}
+.icon_add{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+}
+.contenedor_expedientes{
+    width: 610px;
+    height: 200px;
+    
+    border: solid 1px #c5c1c1;
+    margin-top: 10px;
+}
+.grupo_expediente{
+    display: flex;
+    justify-content: center;
+}
+.contenedor_alergias{
+    width: 250px;
+    height: 200px;
+    border: solid 1px #c5c1c1;
+}
+.form_nuevo{
+    width: 260px;
+    height: 160px;
+    background: #ffffff;
+    border: solid 1px #c5c1c1;
+
+}
+.nuevo-text{
+    width: 90%;
+    background: rgb(224, 224, 224);
+    margin-top: 8px;
+    margin-left: 11px;
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+}
+.contenedor_btn{
+    margin-top: 8px;
+    display: flex;
+    width: 100%;
+}
+.btn_guardar{
+    width: 80px;
+    height: 25px;
+    background: rgb(0, 7, 61);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    
+}
+.btn_cancelar{
+    width: 80px;
+    height: 25px;
+    background: #DF013A;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-left: 5px;
+}

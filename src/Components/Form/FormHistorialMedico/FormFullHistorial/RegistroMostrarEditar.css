@@ -1,0 +1,37 @@
+input, textarea{
+    padding: 10px;
+}
+
+.erroresIn{
+    color: red  !important;
+    font-size: 12px;
+}
+
+
+.conME {
+    width: 1166px;
+    height: 591px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+
+.NoEdit{
+    width: 250px;
+    outline: none;
+   
+}
+
+.NoEdit2{
+    width: 100px;
+    outline: none;
+   
+}
+
+.antP{
+    outline: none ;
+}
+.editPer{
+    margin: 5px;
+}

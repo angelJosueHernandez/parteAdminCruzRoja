@@ -1,0 +1,71 @@
+.form_Emergencias{
+    background: #ffffff;
+    width: 1130px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+.form_Grid_emergencia{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding: 15px;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    border-radius: 10px;
+}
+.title_Form_HM{
+    grid-column: span 4;
+}
+.title_Form_HM h1{
+    font-size: 30px;
+}
+.sub-tituloE{
+    grid-column: span 4;
+    width: 98%;
+}
+.sub-tituloE h1{
+    font-size: 20px;
+    text-align: center;
+}
+.grup-input{
+    display: block;
+    
+}
+.label-name{
+    color: #000000;
+}
+.input-text{
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+}
+.conte-registrarHM{
+    grid-column: span 4;
+}
+.btnRegistrar{
+    background: #FF0040;
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+.cont_Paginacion{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btn_Paginacion{
+    background: #FF0040;
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+.exito{
+    text-align: center;
+    color: rgb(24, 160, 24);
+}

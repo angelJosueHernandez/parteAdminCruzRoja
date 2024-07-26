@@ -1,0 +1,63 @@
+.contenedor_Historial_Medico{
+    width: 1166px;
+    height: 591px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+  width: 1166px;
+  height: 591px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+
+  
+  .form-container {
+    position: fixed;
+    top: 80px;
+    width: 1020px;
+    max-height: calc(120vh - 240px); /* Altura máxima - margen superior e inferior */
+    overflow-y: auto; /* Habilitar desplazamiento vertical si el contenido excede la altura máxima */
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    padding: 50px;
+    margin-left: 20px !important;
+    margin-bottom: 10px;
+    z-index: 0;
+  
+  }
+
+
+  /*
+    .form-container {
+  position: fixed;
+  top: 80px;
+  width: 1020px;
+  max-height: calc(120vh - 240px); 
+  overflow-y: auto; 
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  padding: 50px;
+  margin-left: 20px !important;
+  margin-bottom: 10px;
+  z-index: 0;
+
+  Ocultar la barra de desplazamiento de forma visual
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+
+
+  &::-webkit-scrollbar {
+    width: 0;  Ancho de la barra de desplazamiento 
+    background: transparent;
+  }
+}
+
+    
+    */
+  

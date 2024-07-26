@@ -1,0 +1,52 @@
+.form-personal{
+    background: #ffffff;
+    width: 1120px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);    
+}
+.form-grid{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding: 15px;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.title_form{
+    grid-column: span 4;
+
+}
+.title_form h1{
+    font-size: 30px;
+}
+.grup-input{
+    width: 250px;
+
+}
+.conte-registrar{
+    grid-column: span 4;
+}
+.input-text{
+    width: 100%;
+    background: rgb(224, 224, 224);
+    margin-top: 5px;
+}
+.btnRegistrar{
+    background: #FF0040;
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+.msg_error{
+    width: 100%;
+    height: 30px;
+
+}
+.msg_error span{
+    color: #FF0040;
+    font-weight: 600;
+	font-size: 12px;
+}

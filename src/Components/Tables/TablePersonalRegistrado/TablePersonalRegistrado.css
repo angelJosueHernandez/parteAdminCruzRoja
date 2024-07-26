@@ -1,0 +1,158 @@
+.title_emergencias{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 7, 61);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.contenedor_buscador{
+    width: 100%;
+    height: 40px;
+    display:flex;
+    justify-content: flex-end;
+}
+.contedor_search{
+    width: 275px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #c0c0c0;
+    border-radius: 5px;
+}
+.contedor_search:hover{
+    border: 2px solid #DF013A;
+}
+.icon_search{
+    width: 25px;
+    height: 25px;
+    
+}
+.btn_search{
+    width: 100%;
+    height: 100%;
+    
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+    
+}
+
+.tabla_personal{
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+}
+.tabla_personal thead tr {
+    background:#DF013A;
+    /*border: 1px solid #ddd;*/
+    /*font-weight: bold;*/
+    text-align: center;
+    color: #fff;
+}
+.tabla_personal tbody td{
+    text-align: center;
+}
+.tabla_personal th,
+.tabla_personal td{
+    padding: 5px ;
+    font-size: 12px;
+}
+.tabla_personal tbody tr{
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+.tabla_personal tbody tr:hover{
+    background: #F5A9BC;
+}
+.tabla_personal tbody tr:last-of-type{
+    border-bottom: 2px solid #DF013A;
+}
+.contenedor_btn{
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    position: relative;
+}
+.btn_editar{
+    width: 80px;
+    height: 25px;
+    background: rgb(0, 7, 61);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    
+}
+.btn_eliminar{
+    width: 80px;
+    height: 25px;
+    background: #DF013A;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.modal_editar{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 250px;
+    height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    background:#ffffff;
+    border: solid 2px #c0c0c0;
+    opacity: 0;
+    
+}
+.modal_editar.open-menu{
+    height: 300px;
+    opacity: 1;
+    
+}
+.btn_group{
+    width: 240px;
+    margin-top: 5px;
+    margin-left: 14px;
+}
+.input_Modal{
+    width: 90%;
+    background: rgb(224, 224, 224);
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+}
+.contenedor_enviar{
+    width: 100%;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+.btn_enviar{
+    width: 105px;
+    height: 30px;
+    background: #DF013A;
+    color:#fff;
+    margin-left: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnCancelar{
+    width: 105px;
+    height: 30px;
+    background: #DF013A;
+    color:#fff;
+    margin-left: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}

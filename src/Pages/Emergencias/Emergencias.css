@@ -1,0 +1,7 @@
+.contenedor_Emergencias{
+    width: 1166px;
+    height: 591px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

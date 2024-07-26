@@ -1,0 +1,67 @@
+.title_emergencias{
+    text-align: center;
+    font-size: 25px;
+}
+.contenedor_buscador{
+    width: 100%;
+    height: 40px;
+    display:flex;
+    justify-content: flex-end;
+}
+.contedor_search{
+    width: 275px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #c0c0c0;
+    border-radius: 5px;
+}
+.contedor_search:hover{
+    border: 2px solid #DF013A;
+}
+.icon_search{
+    width: 25px;
+    height: 25px;
+    
+}
+.btn_search{
+    width: 100%;
+    height: 100%;
+    
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+    
+}
+
+.tabla_emergencias{
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+}
+.tabla_emergencias thead tr {
+    background:#DF013A;
+    /*border: 1px solid #ddd;*/
+    /*font-weight: bold;*/
+    text-align: center;
+    color: #fff;
+}
+.tabla_emergencias th,
+.tabla_emergencias td{
+    padding: 5px ;
+}
+.tabla_emergencias tbody tr{
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+.tabla_emergencias tbody tr:hover{
+    background: #F5A9BC;
+}
+.tabla_emergencias tbody tr:last-of-type{
+    border-bottom: 2px solid #DF013A;
+}

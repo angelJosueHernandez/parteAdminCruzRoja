@@ -1,0 +1,8 @@
+input, textarea{
+    padding: 10px;
+}
+
+.erroresIn{
+    color: red  !important;
+    font-size: 12px;
+}
